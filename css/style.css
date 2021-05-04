@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    background-image: url(../img/donate-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(96, 96, 96,.8);
+}
+
+header h1 {
+    color: #eee;
+    font-size: 40px;
+    padding: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+main{
+    padding: 5%;
+}
+
+section{
+    background-color: rgba(96, 96, 96,.8);
+    border-radius: 5px;
+}
+
+#inputSec {
+    float: left;
+    width: 37%;
+    height: 100px;
+    padding: 2%;
+    font-size: 25px;
+    color: #eee;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+#inputSec div {
+ display: block;
+ position: relative;
+}
+
+#donorName{
+    position: absolute;
+    right: 0;
+    width: 300px;
+}
+
+#amount{
+    position: absolute;
+    right: 0;
+    width: 308px;
+}
+
+#submit{
+    position: absolute;
+    right: 0;
+    width: 308px;
+    height: 40px;
+    background-color: black;
+    color: #eee;
+    font-size: 23px;
+    font-size: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#tableSec{
+    float: right;
+    width: 55%;
+}
+
+#tableSec table {
+    margin: 3% 0%;
+    border: 2px solid #eee;
+    width: 100%;
+    color: #eee;
+    border-spacing: 2px;
+    border-collapse: separate;
+}
+#tableSec table th , td {
+    padding: 1%;
+    border: 1px solid #eee;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+#totalH3{
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+    color: #eee;
+    padding: 18px;
+}
+footer{
+    clear: both;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(96, 96, 96,.8);
+    position: absolute;
+    bottom: 0;
+}
+
+h2 {
+    color: #eee;
+    font-size: 25px;
+    padding: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
